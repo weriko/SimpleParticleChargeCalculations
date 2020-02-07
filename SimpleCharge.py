@@ -95,24 +95,12 @@ class Field:
 
 
 
-    
+#Some testing    
 field = Field()  
 micro = 10**(-6)
 nano = 10**(-9)
-cargelectron = (1.60217662*(10**(-19)))
-"""
-q1 = Particle(cargelectron,0,0,0)
-q2=Particle(cargelectron, 5*10**(-19),4*10**(-19),5*10**(-19))
-q3=Particle(cargelectron, 0,4*10**(-19),0)
-field.add_particle(q1)
-field.add_particle(q2)
-field.add_particle(q3)
-"""
-"""
-q1 = Particle(2*micro,0,0,0)
-q2 = Particle(-4*micro,5*nano,0,0)
-q3 = Particle(10*micro,5*nano,4*nano,0)
-"""
+default_charge = (1.60217662*(10**(-19))) 
+
 q1= Particle(3*nano,2,2,2)
 q2 = Particle(5*nano,2,7,9)
 q3= Particle(3*nano,4,6,3)
